@@ -9,6 +9,7 @@
 ### not ignore ###
 !/.zshrc
 !/.zshenv
+!/.zpreztorc
 !/.zfunc/
 /.zfunc/**  # ディレクトリは管理したいけど中身はいらないときはこんな感じ
 !/.zsh/
