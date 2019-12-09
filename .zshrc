@@ -8,6 +8,9 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
+#tmux
+alias t='tmux'
+
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
