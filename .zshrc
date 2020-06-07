@@ -22,6 +22,7 @@ export PATH=$GOENV_ROOT/bin:$PATH
 eval "$(goenv init -)"
 export GOPATH=$HOME/go
 PATH=$PATH:$GOPATH/bin
+export GO111MODULE=on
 
 # python
 export PYENV_ROOT="$HOME/.pyenv"
@@ -39,3 +40,8 @@ autoload -Uz _zplugin
 ### End of Zplugin installer's chunk
 
 export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
+
+### sbt
+export PATH=/path/to/activator:$PATH
+export PATH="${HOME}/.sbtenv/bin:${PATH}"
+eval "$(sbtenv init -)"
