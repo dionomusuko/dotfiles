@@ -2,12 +2,6 @@
 #                        zsh
 #----------------------------------------------------------
 
-# Executes commands at the start of an interactive session.
-#
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
-
 #tmux
 alias t='tmux'
 
@@ -38,8 +32,6 @@ source '/Users/kantoshiya/.zplugin/bin/zplugin.zsh'
 autoload -Uz _zplugin
 (( ${+_comps} )) && _comps[zplugin]=_zplugin
 ### End of Zplugin installer's chunk
-
-export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
 
 ### sbt
 export PATH=/path/to/activator:$PATH
