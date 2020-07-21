@@ -3,6 +3,8 @@
 "----------------------------------------------------
 " vimplug
 call plug#begin()
+" coc.nvim
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " powerline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -18,7 +20,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rails'
 " Ruby向けにendを自動挿入してくれる
 Plug 'tpope/vim-endwise'
-" marckdown
+" markdown
 Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
 call plug#end()
 "--------------------------------
