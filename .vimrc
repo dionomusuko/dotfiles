@@ -124,6 +124,8 @@ set whichwrap=b,s,h,l,<,>,[,],~
 set mouse=a
 " 行をハイライト
 set ruler
+" jjでエスケープ
+inoremap <silent> jj <ESC>
 
 " Powerline系フォントを利用する
 set laststatus=2
