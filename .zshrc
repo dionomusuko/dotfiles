@@ -2,8 +2,15 @@
 #                        zsh
 #----------------------------------------------------------
 
-#tmux
+#----------------------------------------------------------
+#alias
+#----------------------------------------------------------
 alias t='tmux'
+alias g='git'
+alias dc='docker-compose up'
+alias ds='docker-compose stop'
+alias s='source'
+alias v='vim'
 
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
