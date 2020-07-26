@@ -43,13 +43,18 @@ alias t='tmux'
 # git
 alias g='git'
 # docker
+alias d='docker'
+alias ds='docker stop'
 alias dp='docker ps'
 alias dpa='docker ps -a'
 alias dcu='docker-compose up'
 alias dcs='docker-compose stop'
-#etc
+# k8s
+alias ku='kubectl'
+alias kg='kubectl get'
+# etc
 alias s='source'
 alias v='vim'
 alias c='cd'
 alias ..='cd ..'
-
+alias cl='clear'
