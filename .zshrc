@@ -44,6 +44,7 @@ alias t='tmux'
 alias g='git'
 # docker
 alias d='docker'
+alias dk='docker kill'
 alias ds='docker stop'
 alias dp='docker ps'
 alias dpa='docker ps -a'
