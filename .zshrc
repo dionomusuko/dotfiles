@@ -48,6 +48,7 @@ alias dk='docker kill'
 alias ds='docker stop'
 alias dp='docker ps'
 alias dpa='docker ps -a'
+alias di='docker images'
 alias dcu='docker-compose up'
 alias dcs='docker-compose stop'
 # k8s
