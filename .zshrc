@@ -17,8 +17,8 @@ autoload -Uz _zplugin
 export GOENV_ROOT=$HOME/.goenv
 export PATH=$GOENV_ROOT/bin:$PATH
 export GO111MODULE=on
-export GOPATH=$HOME/go
-PATH=$PATH:$GOPATH/bin
+export GOPATH=$HOME/go/src
+export GOENV_DISABLE_GOPATH=1
 eval "$(goenv init -)"
 
 # python
